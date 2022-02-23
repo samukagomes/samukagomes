@@ -1,7 +1,6 @@
 body{
 	background-color: #21201c;
 	color: white;
-	padding: 20px 0px 0px 0px;
 }
 h1{
 	font-size: 3rem;
@@ -22,13 +21,12 @@ h1{
 
 
 #cont-bv{
-	margin-top: 100px;
+	margin-top: 150px;
 	margin-bottom: 150px;
 	text-align: center;
 }
 #id-bio{
 	margin-bottom: 50px;
-	padding-left: 30px;
 }
 #id-bio-txt{
 	margin-bottom: 20px;
@@ -77,14 +75,14 @@ hr{
 	margin-bottom:50px ;
 	background-color: #531cb3;
 	border-radius: 10px;
-	padding:10px -10px 20px 20px;
+	padding:10px 0px 20px 20px;
 	box-shadow: black 5px 5px 10px;
 }
 
 
 
 #id-icon{color: white;
-	font-size: 30px;
+	font-size: 40px;
 	margin: auto;
 	margin-bottom: 10px;}
 
@@ -119,8 +117,9 @@ hr{
 
 footer{
 	background-color:#531cb3 ;
-
+	text-align: center;
 	margin-top: 100px;
-	padding-bottom:30px ;
+	padding-top: 10px;
+	padding-bottom:5px ;
 
 } 
