@@ -1,0 +1,126 @@
+body{
+	background-color: #21201c;
+	color: white;
+	padding: 20px 0px 0px 0px;
+}
+h1{
+	font-size: 3rem;
+	text-shadow: #748cab 0px 0px 15px;
+	text-decoration: underline;
+	
+	/*Animação de typing*/
+	overflow: hidden; /* isso faz o texto não ultrapassar o seu espaço  */
+	white-space: nowrap;
+	margin: auto;
+	animation: typing 5s steps(50, end); 
+}
+
+@keyframes typing {
+  from{width: 0%;}
+  to{width: 100%;}
+}
+
+
+#cont-bv{
+	margin-top: 100px;
+	margin-bottom: 150px;
+	text-align: center;
+}
+#id-bio{
+	margin-bottom: 50px;
+	padding-left: 30px;
+}
+#id-bio-txt{
+	margin-bottom: 20px;
+	padding-top: 20px;
+	padding-left: 20px;
+	background-color: #531cb3;
+	border-radius: 10px;
+	box-shadow: black 5px 5px 10px;
+}
+
+img.perfil{
+	margin: auto;
+	display: block;
+	height: 200px;
+	width: 200px;
+	background-color: white;
+	border-radius: 100px;
+	box-shadow: black 5px 5px 10px;
+}
+
+img.perfil:hover{
+	opacity: 70%;
+	animation: subir 1s;
+}
+@keyframes subir{
+	0%{
+		transform: translateY(0px);
+	}
+	50%{
+		transform: translateY(-20px);
+	}
+	100%{
+		transform:  translateY(0px);
+	}
+}
+
+hr{
+	background-color: #748cab;
+	padding-top:2px;
+	filter: blur(1px);
+}
+
+
+
+#card{
+	margin-bottom:50px ;
+	background-color: #531cb3;
+	border-radius: 10px;
+	padding:10px -10px 20px 20px;
+	box-shadow: black 5px 5px 10px;
+}
+
+
+
+#id-icon{color: white;
+	font-size: 30px;
+	margin: auto;
+	margin-bottom: 10px;}
+
+#id-icon:hover{
+	opacity: 50%;
+	animation: icon 0.5s infinite;
+}
+
+@keyframes icon{
+	0%{
+		transform: translateY(0px);
+	}
+	50%{
+		transform: translateY(-5px);
+	}
+	100%{
+		transform: translateY(1px);
+	}
+}
+
+
+
+#btn-subir{
+	position: fixed;
+	right: 20px;
+	bottom: 10px;
+	padding: 2px;
+}
+#id-img-seta{
+	width: 50px;
+}
+
+footer{
+	background-color:#531cb3 ;
+
+	margin-top: 100px;
+	padding-bottom:30px ;
+
+} 
